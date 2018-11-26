@@ -38,41 +38,6 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.IoT.Lightning/1.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Microsoft.IoT.Lightning.Providers.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.IoT.Lightning.Providers.winmd": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win10-arm/native/Lightning.dll": {
-            "assetType": "native",
-            "rid": "win10-arm"
-          },
-          "runtimes/win10-arm/native/Microsoft.IoT.Lightning.Providers.dll": {
-            "assetType": "native",
-            "rid": "win10-arm"
-          },
-          "runtimes/win10-x64/native/Lightning.dll": {
-            "assetType": "native",
-            "rid": "win10-x64"
-          },
-          "runtimes/win10-x64/native/Microsoft.IoT.Lightning.Providers.dll": {
-            "assetType": "native",
-            "rid": "win10-x64"
-          },
-          "runtimes/win10-x86/native/Lightning.dll": {
-            "assetType": "native",
-            "rid": "win10-x86"
-          },
-          "runtimes/win10-x86/native/Microsoft.IoT.Lightning.Providers.dll": {
-            "assetType": "native",
-            "rid": "win10-x86"
-          }
-        }
-      },
       "Microsoft.NETCore/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -1958,14 +1923,6 @@
         "runtime": {
           "lib/uap10.0/WinRTXamlToolkit.dll": {}
         }
-      },
-      "RPi.AdDaBoard/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10586",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
-          "UniversalFormsToolkit": "1.0.19"
-        }
       }
     },
     "UAP,Version=v10.0.10586/win10-arm": {
@@ -2003,19 +1960,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.IoT.Lightning/1.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Microsoft.IoT.Lightning.Providers.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.IoT.Lightning.Providers.winmd": {}
-        },
-        "native": {
-          "runtimes/win10-arm/native/Lightning.dll": {},
-          "runtimes/win10-arm/native/Microsoft.IoT.Lightning.Providers.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -3769,14 +3713,6 @@
         "runtime": {
           "lib/uap10.0/WinRTXamlToolkit.dll": {}
         }
-      },
-      "RPi.AdDaBoard/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10586",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
-          "UniversalFormsToolkit": "1.0.19"
-        }
       }
     },
     "UAP,Version=v10.0.10586/win10-arm-aot": {
@@ -3814,19 +3750,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.IoT.Lightning/1.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Microsoft.IoT.Lightning.Providers.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.IoT.Lightning.Providers.winmd": {}
-        },
-        "native": {
-          "runtimes/win10-arm/native/Lightning.dll": {},
-          "runtimes/win10-arm/native/Microsoft.IoT.Lightning.Providers.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -5537,14 +5460,6 @@
         "runtime": {
           "lib/uap10.0/WinRTXamlToolkit.dll": {}
         }
-      },
-      "RPi.AdDaBoard/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10586",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
-          "UniversalFormsToolkit": "1.0.19"
-        }
       }
     },
     "UAP,Version=v10.0.10586/win10-x64": {
@@ -5582,19 +5497,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.IoT.Lightning/1.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Microsoft.IoT.Lightning.Providers.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.IoT.Lightning.Providers.winmd": {}
-        },
-        "native": {
-          "runtimes/win10-x64/native/Lightning.dll": {},
-          "runtimes/win10-x64/native/Microsoft.IoT.Lightning.Providers.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -7357,14 +7259,6 @@
         "runtime": {
           "lib/uap10.0/WinRTXamlToolkit.dll": {}
         }
-      },
-      "RPi.AdDaBoard/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10586",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
-          "UniversalFormsToolkit": "1.0.19"
-        }
       }
     },
     "UAP,Version=v10.0.10586/win10-x64-aot": {
@@ -7402,19 +7296,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.IoT.Lightning/1.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Microsoft.IoT.Lightning.Providers.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.IoT.Lightning.Providers.winmd": {}
-        },
-        "native": {
-          "runtimes/win10-x64/native/Lightning.dll": {},
-          "runtimes/win10-x64/native/Microsoft.IoT.Lightning.Providers.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -9125,14 +9006,6 @@
         "runtime": {
           "lib/uap10.0/WinRTXamlToolkit.dll": {}
         }
-      },
-      "RPi.AdDaBoard/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10586",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
-          "UniversalFormsToolkit": "1.0.19"
-        }
       }
     },
     "UAP,Version=v10.0.10586/win10-x86": {
@@ -9170,19 +9043,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.IoT.Lightning/1.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Microsoft.IoT.Lightning.Providers.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.IoT.Lightning.Providers.winmd": {}
-        },
-        "native": {
-          "runtimes/win10-x86/native/Lightning.dll": {},
-          "runtimes/win10-x86/native/Microsoft.IoT.Lightning.Providers.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -10945,14 +10805,6 @@
         "runtime": {
           "lib/uap10.0/WinRTXamlToolkit.dll": {}
         }
-      },
-      "RPi.AdDaBoard/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10586",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
-          "UniversalFormsToolkit": "1.0.19"
-        }
       }
     },
     "UAP,Version=v10.0.10586/win10-x86-aot": {
@@ -10990,19 +10842,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.IoT.Lightning/1.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/uap10.0/Microsoft.IoT.Lightning.Providers.winmd": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.IoT.Lightning.Providers.winmd": {}
-        },
-        "native": {
-          "runtimes/win10-x86/native/Lightning.dll": {},
-          "runtimes/win10-x86/native/Microsoft.IoT.Lightning.Providers.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -12713,14 +12552,6 @@
         "runtime": {
           "lib/uap10.0/WinRTXamlToolkit.dll": {}
         }
-      },
-      "RPi.AdDaBoard/1.0.0": {
-        "type": "project",
-        "framework": "UAP,Version=v10.0.10586",
-        "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
-          "UniversalFormsToolkit": "1.0.19"
-        }
       }
     }
   },
@@ -12775,78 +12606,6 @@
         "ref/wpa81/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._"
-      ]
-    },
-    "Microsoft.IoT.Lightning/1.1.0": {
-      "sha512": "gItVnvHk/fuq1xr8Cz//taf/ORnkA/rRcqzNeuh8IMhVkLoxQD2VXwak1a9wMLdsvoyql4puIOmue57Y+OMt1g==",
-      "type": "package",
-      "path": "microsoft.iot.lightning/1.1.0",
-      "files": [
-        "build/native/Microsoft.IoT.Lightning.targets",
-        "include/ADS1015Support.h",
-        "include/Adc.h",
-        "include/ArduinoCommon.h",
-        "include/ArduinoError.h",
-        "include/BcmI2cController.h",
-        "include/BcmSpiController.h",
-        "include/BoardPins.h",
-        "include/BtI2cController.h",
-        "include/BtSpiController.h",
-        "include/Client.h",
-        "include/DMap.h",
-        "include/DmapSupport.h",
-        "include/ErrorCodes.h",
-        "include/ExpanderDefs.h",
-        "include/GpioController.h",
-        "include/GpioInterrupt.h",
-        "include/HardwareSerial.h",
-        "include/HiResTimer.h",
-        "include/I2c.h",
-        "include/I2cController.h",
-        "include/I2cTransaction.h",
-        "include/I2cTransfer.h",
-        "include/IPAddress.h",
-        "include/Lightning.h",
-        "include/LiquidCrystal.h",
-        "include/MCP3008support.h",
-        "include/MuxDefs.h",
-        "include/NetworkSerial.h",
-        "include/PCA9685Support.h",
-        "include/Print.h",
-        "include/Printable.h",
-        "include/PulseIn.h",
-        "include/Server.h",
-        "include/Servo.h",
-        "include/SpiController.h",
-        "include/Stepper.h",
-        "include/Stream.h",
-        "include/Udp.h",
-        "include/WCharacter.h",
-        "include/WInterrupt.h",
-        "include/WString.h",
-        "include/WindowsRandom.h",
-        "include/WindowsTime.h",
-        "include/Wire.h",
-        "include/arduino.h",
-        "include/avr/interrupt.h",
-        "include/avr/macros.h",
-        "include/avr/pgmspace.h",
-        "include/binary.h",
-        "include/eeprom.h",
-        "include/pins_arduino.h",
-        "include/spi.h",
-        "lib/uap10.0/Microsoft.IoT.Lightning.Providers.winmd",
-        "lib/win10-arm/native/Lightning.lib",
-        "lib/win10-x64/native/Lightning.lib",
-        "lib/win10-x86/native/Lightning.lib",
-        "microsoft.iot.lightning.1.1.0.nupkg.sha512",
-        "microsoft.iot.lightning.nuspec",
-        "runtimes/win10-arm/native/Lightning.dll",
-        "runtimes/win10-arm/native/Microsoft.IoT.Lightning.Providers.dll",
-        "runtimes/win10-x64/native/Lightning.dll",
-        "runtimes/win10-x64/native/Microsoft.IoT.Lightning.Providers.dll",
-        "runtimes/win10-x86/native/Lightning.dll",
-        "runtimes/win10-x86/native/Microsoft.IoT.Lightning.Providers.dll"
       ]
     },
     "Microsoft.NETCore/5.0.0": {
@@ -16693,16 +16452,10 @@
         "winrtxamltoolkit.2.0.0.nupkg.sha512",
         "winrtxamltoolkit.nuspec"
       ]
-    },
-    "RPi.AdDaBoard/1.0.0": {
-      "type": "project",
-      "path": "../RPi.AdDaBoard/project.json",
-      "msbuildProject": "../RPi.AdDaBoard/RPi.AdDaBoard.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.IoT.Lightning >= 1.1.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0",
       "UniversalFormsToolkit >= 1.0.19"
     ],
@@ -16714,12 +16467,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "I:\\Dekal Project\\Edited one\\RPi.AdDaBoard.Demo\\RPi.AdDaBoard.Demo.csproj",
-      "projectName": "RPi.AdDaBoard.Demo",
-      "projectPath": "I:\\Dekal Project\\Edited one\\RPi.AdDaBoard.Demo\\RPi.AdDaBoard.Demo.csproj",
-      "projectJsonPath": "I:\\Dekal Project\\Edited one\\RPi.AdDaBoard.Demo\\project.json",
+      "projectUniqueName": "I:\\Dekal Project\\Edited one\\RPi.AdDaBoard\\RPi.AdDaBoard.csproj",
+      "projectName": "RPi.AdDaBoard",
+      "projectPath": "I:\\Dekal Project\\Edited one\\RPi.AdDaBoard\\RPi.AdDaBoard.csproj",
+      "projectJsonPath": "I:\\Dekal Project\\Edited one\\RPi.AdDaBoard\\project.json",
       "packagesPath": "C:\\Users\\Moro\\.nuget\\packages\\",
-      "outputPath": "I:\\Dekal Project\\Edited one\\RPi.AdDaBoard.Demo\\obj\\",
+      "outputPath": "I:\\Dekal Project\\Edited one\\RPi.AdDaBoard\\obj\\",
       "projectStyle": "ProjectJson",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
@@ -16732,19 +16485,9 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
-      },
-      "frameworks": {
-        "uap10.0.10586": {
-          "projectReferences": {
-            "I:\\Dekal Project\\Edited one\\RPi.AdDaBoard\\RPi.AdDaBoard.csproj": {
-              "projectPath": "I:\\Dekal Project\\Edited one\\RPi.AdDaBoard\\RPi.AdDaBoard.csproj"
-            }
-          }
-        }
       }
     },
     "dependencies": {
-      "Microsoft.IoT.Lightning": "[1.1.0, )",
       "Microsoft.NETCore.UniversalWindowsPlatform": "[5.1.0, )",
       "UniversalFormsToolkit": "[1.0.19, )"
     },
